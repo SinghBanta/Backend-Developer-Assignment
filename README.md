@@ -52,7 +52,7 @@ The server will start at `http://localhost:5000/`
 ## Sample `.env` File
 ```env
 PORT=5000
-MONGO_URI=mongodb+srv://your_username:your_password@cluster.mongodb.net/myDatabase
+MONGO_URL=<our_mongodb_connection_string>
 JWT_SECRET=mysecretkey
 ```
 
